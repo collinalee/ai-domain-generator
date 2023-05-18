@@ -1,0 +1,94 @@
+/* Basic reset and typography */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #24292e;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+strong {
+  font-weight: bolder;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+}
+
+/* Header */
+header {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  color: #586069;
+}
+
+/* Form */
+form label {
+  font-weight: bold;
+}
+
+form .form-select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+form .form-text {
+  font-size: 0.875rem;
+  color: #586069;
+}
+
+form button {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Loading Screen */
+#loading-screen img {
+  max-width: 100px;
+  margin-bottom: 1rem;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  header {
+    margin-top: 1rem;
+  }
+}
